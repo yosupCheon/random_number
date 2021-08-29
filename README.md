@@ -1,1 +1,1 @@
-random_number
+Generating random numbers
