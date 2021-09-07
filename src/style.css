@@ -1,3 +1,27 @@
+h1 {
+    color: green;
+    text-align: center;
+    border-bottom: 5px solid orange;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    margin: 0px;
+    display: block;
+}
+p {
+    margin: 0px;
+    display:inline;
+}
+#green_clr {
+    color: green;
+}
+div {
+    color:green;
+    display: inline;
+}
+.odd p {
+    color:orange;
+}
+
 .square {
     width: 80px;
     height: 80px;
