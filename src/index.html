@@ -3,49 +3,69 @@
 
 <head>
     <title>Random Number Generator</title>
+    <meta charset = "utf-8">
     <link href = "style.css" type = "text/css" rel = "stylesheet">
     <script src = "script.js"></script>
+    <style>
+        h1 {
+            color: green;
+            text-align: center;
+            border-bottom: 5px solid orange;
+            padding-top: 0px;
+            padding-bottom: 10px;
+            margin: 0px;
+            display: block;
+        }
+        p {
+            margin: 0px;
+            display:inline;
+        }
+        #green_clr {
+            color: green;
+        }
+        div {
+            color:green;
+            display: inline;
+        }
+        .odd p {
+            color:orange;
+        }
+    </style>
 </head>
 
-<body
-bgcolor = "sky blue"
-text = "blue"
-
-topmargin = "55" 
-leftmargin = "25"
->
-    <h1 align = "center">Random Number Generator</h1>
-    <h2 align = "left"><font color = "purple"><u><b>Description:</b></u> <font color = "yellow">choose number of items.</font><br>Then it will return random numbers.</h2>
-    
-    <font size = "4" face = "Arial"><b>Click to create random numbers</b><br></font>
+<body>
+    <h1>Random Number Generator</h1>
+    <br>
+    <font size = "4" face = "Arial" color = "green"><b>Click to create random numbers</b><br></font>
     <input type = "button" id = "test" value = "generate">
-    <br><br><br><br><br><br>
-
-    <font size = "4" face = "Arial"><b>Result:</b></font>
-    <br><br>
+    <br>
+    <br>
+    <font size = "4" face = "Arial" color = "orange"><b>Result:</b></font>
+    <br>
     <div class = "square">3</div> 
     <div class = "circle">2</div>
     <div class = "square">1</div> 
     <div class = "circle">8</div>
     <div class = "square">6</div>
     <div class = "circle">7</div>    
- 
-    <br><br><br><br><br>
+    <br><br><br>
     <font size = "5">
     <pre>
-    <b>
-=============================
-<font color = "orange">Attmpts :   Numbers</font>
-=============================
-    <font color = "green">1   :   1 2 4 5 6 7</font>
-=============================
-    <font color = "pink">2   :   1 2 4 5 6 7</font>
-=============================
-    <font color = "red">3   :   1 2 4 5 6 7</font>
-=============================
-    <font color = "dark green">4   :   1 2 4 5 6 7</font>
-=============================
-    </b>
+    <div class = "odd">
+        <b>
+<p>=============================</p>
+<div>Attmpts :   Numbers</div>
+<p>=============================</p>
+<p id = "green_clr">    1   :   1 2 4 5 6 7</p>
+<p>=============================</p>
+<p id = "green_clr">    2   :   1 2 4 5 6 7</p>
+<p>=============================</p>
+<p id = "green_clr">    3   :   1 2 4 5 6 7</p>
+<p>=============================</p>
+<p id = "green_clr">    4   :   1 2 4 5 6 7</p>
+<p>=============================</p>
+        </b>
+    </div>
     </pre>
     </font>
 </body>
