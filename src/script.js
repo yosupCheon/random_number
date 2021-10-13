@@ -1,8 +1,11 @@
-const rand_num = Math.floor(Math.random() * 10);
-window.onload = function() {
-    var rand = document.getElementById('test');
-    rand.addEventListener('click', function (){
-            document.write(rand_num);
-        }
-    )
-}
+function myFunction() {
+    var x,y,z;
+    
+    document.getElementById("one").innerHTML = Math.floor((Math.random() * 10) + 1);
+    document.getElementById("two").innerHTML = Math.floor((Math.random() * 10) + 1);
+    document.getElementById("three").innerHTML = Math.floor((Math.random() * 10) + 1);
+    document.getElementById("four").innerHTML = Math.floor((Math.random() * 10) + 1);
+    document.getElementById("five").innerHTML = Math.floor((Math.random() * 10) + 1);
+    document.getElementById("six").innerHTML = Math.floor((Math.random() * 10) + 1);
+    document.getElementById("seven").innerHTML = Math.floor((Math.random() * 10) + 1);
+    }
